@@ -1,4 +1,10 @@
 {
   "name": "bitbox",
-  "packageManager": "yarn@4.1.1"
+  "dependencies": {
+    "archiver": "^7.0.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  }
 }
